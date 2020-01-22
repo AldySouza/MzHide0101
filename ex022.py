@@ -1,0 +1,6 @@
+nome = str(input('Digite seu nome: '))
+print(nome.upper())
+print(nome.lower())
+d = nome.split()
+print('Esse nome tem {} letras'.format(len("".join(d))))
+print('O primeiro nome tem {} letras'.format(len(d[0])))
